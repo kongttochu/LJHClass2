@@ -46,7 +46,7 @@ namespace LJHHomework2
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=HomeWork}/{action=FoodApp}/{id?}");
+                    pattern: "{controller=Food}/{action=Index}/{id?}");
             });
         }
     }

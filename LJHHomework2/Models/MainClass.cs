@@ -61,4 +61,11 @@ namespace LJHHomework2.Models
         public string UPDID { get; set; }
         public bool ISUSE { get; set; }
     }
+
+    public class TestData
+    {
+        public string code { get; set; }
+        public string user { get; set; }
+        public int age { get; set; }
+    }
 }
